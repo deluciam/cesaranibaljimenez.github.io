@@ -1,0 +1,129 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+nav {
+
+    background-color: #8d99a2;
+    color: #fff;
+
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+}
+
+nav li {
+    margin: 0 20px;
+
+}
+
+#landing{
+    padding: 20px;
+}
+
+#landing img{
+    margin-right: 50px;
+    margin-bottom: 50px;
+}
+
+#landing h1,
+#landing p{
+    text-align: center;
+}
+
+#projects{
+    padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.content{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    align-items: center;
+    gap: 20px;
+}
+
+.text{
+    padding: 20px;
+}
+
+h1{
+    font-size: 30px;
+}
+
+p{
+    font-size: 24px;
+}
+
+/* Estilos para la tabla */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px; /* Margen superior para separar la tabla del resto del contenido */
+    border: 1px solid #ddd;
+}
+
+/*Estilos para las celdas de encabezados*/
+th {
+    width: 33.33%;
+    text-align: center;
+    padding: 8px;
+    border: 1px solid #8d99a2; /*bordes de un 1 pixel sólido con color gris claro*/
+}
+
+/* Estilos para las celdas de datos */
+td {
+    width: 33.33%;
+    text-align: center;
+    padding: 8px;
+    border: 1px solid #8d99a2;
+}
+
+/* Estilos para las filas impares (cambia el color de fondo) */
+tr:nth-child(odd) {
+    background-color: #f2f2f2; /* Fondo gris claro para filas impares */
+}
+
+/* Estilos para el botón de GitHub */
+.d-grid-gap-2 {
+    gap: 2px;
+}
+
+.col-6 mx-auto {
+    margin: 0 auto;
+}
+
+.btn-github, .btn-go-home {
+    
+    
+    background-color: #6c757d; /* color de fondo gris oscuro  */
+    color: #ffffff; /* Texto blanco  */
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    line-height: 2.5;
+    text-decoration: none;
+    
+}
+
+td img {
+    width: 100%;
+    height: auto;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+
+}
+
+th {
+    
+    text-align: center;
+}
